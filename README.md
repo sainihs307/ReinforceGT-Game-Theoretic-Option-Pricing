@@ -4,8 +4,8 @@ A small collection of Python scripts implementing core game theory concepts: che
 
 ## Contents
 
-- `Assgn1_240318_Daksh Saijwal.py` — Checks whether a given strategy profile in a 2x2 Prisoner's Dilemma-style game (Cooperate/Defect) is a Pure Nash Equilibrium. Takes user input, looks up payoffs from a fixed payoff matrix, and verifies that neither player can unilaterally improve their payoff by deviating.
-- `Assgn2_240318_Daksh_Saijwal.py` — Computes the set of best-response actions for a given player against a fixed opponent action, using a payoff matrix supplied in nested-dictionary form.
+- `Assgn1_240442_HS.py` — Checks whether a given strategy profile in a 2x2 Prisoner's Dilemma-style game (Cooperate/Defect) is a Pure Nash Equilibrium. Takes user input, looks up payoffs from a fixed payoff matrix, and verifies that neither player can unilaterally improve their payoff by deviating.
+- `Assgn2_240442_HS.py` — Computes the set of best-response actions for a given player against a fixed opponent action, using a payoff matrix supplied in nested-dictionary form.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ No external dependencies are required.
 ### Pure Nash Equilibrium checker
 
 ```bash
-python "Assgn1_240318_Daksh Saijwal.py"
+python "Assgn1_240442_HS.py"
 ```
 
 You'll be prompted to enter a strategy profile, e.g.:
@@ -36,7 +36,7 @@ The script reports whether the entered profile is a Pure Nash Equilibrium under 
 
 ### Best response calculator
 
-`Assgn2_240318_Daksh_Saijwal.py` defines a `bestResponse(payoff_matrix, player, opponent_action)` function rather than a standalone script. Import it and call it with a payoff matrix in the form:
+`Assgn2_240442_HS.py` defines a `bestResponse(payoff_matrix, player, opponent_action)` function rather than a standalone script. Import it and call it with a payoff matrix in the form:
 
 ```python
 payoff_matrix = {
